@@ -57,8 +57,11 @@ The staging area in Git is a middle step between modifying files in your working
 - staging area means “holding area”. Before the commits, where you keep your changes ready before saving them permanently.
 
 11. Explain Branching strategy.
-12. Explain Environmentin git.
-13. what is stash command.
+- A branching strategy is a way to organize and manage branches in Git.
+-  it working on different tasks in different branches.
+-  (Explain types of branches (refer to project pragragh))
+13. Explain Environmentin git.
+14. what is stash command.
 
 The git stash command temporarily saves your uncommitted changes without deleting them from your working directory. This allows you to switch branches or work on something else, then return and reapply those changes when needed.
 
