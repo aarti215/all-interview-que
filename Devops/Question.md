@@ -58,7 +58,7 @@ The staging area in Git is a middle step between modifying files in your working
 
 11. Explain Branching strategy.
 - A branching strategy is a way to organize and manage branches in Git.
--  it working on different tasks in different branches.
+-  it working on different tasks in different branches. so one task is completed it merge to the another branch.
 -  (Explain types of branches (refer to project pragragh))
 13. Explain Environmentin git.
 14. what is stash command.
