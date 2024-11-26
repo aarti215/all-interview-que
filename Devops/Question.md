@@ -247,7 +247,40 @@ Load Balancing: Kubernetes distributes traffic across containers to maintain per
 Portability: Since it works with containers, Kubernetes can run applications consistently across different environments (on-premise, cloud, hybrid).
 
 54. Architecture of kubernetes ?
+   1) API SERVER :-
+  - api server is used to communicate within the cluster.
+  - this api server directly interacts with user.
+  - it is used to scale automatically as per load.
+  - api server is front-end of control plane.
+  - It accept all request from the node & process that request to the master node.
 
+  2) ETCD :-
+  - etcd is like database ,it maintain the centralized database in cluster.
+  - it store the metadata & status of cluster.
+  - etcd is consistent & high available store ,it store the information in key-value format.
+
+  3) KUBE SCHEDULAR :-
+   - It assign workloads to the all nodes.
+   - when users make request  your the creation & manegement of pods, kube schedular is going to take action on these 
+     requests.
+   - kube schedular assign any node to create & run pod.
+
+  4) CONTROLLER MANEGER:-
+  - make sure actual state of cluster matches to desired state.
+
+   5) KUBELET :-
+   - The Kubelet is an agent that runs on each node in the Kubernetes cluster.
+
+   6) Kube proxy : 
+    - Kube Proxy  is a network proxy that runs on each node in the cluster.
+    - assigh IP to each pod.
+
+    7) CONTAINER ENGINE :-
+    - platform to run container (eg . docker, rocket, podman)
+
+    7) POD :-
+    - pod is a smallest unit in k8s.
+    - pod is a group of one or more container that are deployed together on same host.
 
 
 55. what does kube schedular in kubernetes ?
