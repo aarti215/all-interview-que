@@ -311,10 +311,12 @@ An EKS (Elastic Kubernetes Service) cluster is a managed Kubernetes service prov
 59. what is lable ?
 
 In Kubernetes, a label is a key-value pair that is attached to objects like pods, services, and deployments. Labels are used to organize and categorize these objects, making it easier to manage and select groups of resources based on specific criteria.
+- label is like tag. it is form of key-value pair that attach to various k8s objects like pods, services, and deployments.
 
 60. explain selector and type of selector ?
 
 In Kubernetes, a selector is a mechanism used to identify a set of resources (like pods) based on their labels. Selectors help you query and manipulate groups of objects efficiently.
+- A selector is a way to filter and pick specific Kubernetes resources (like Pods) based on their labels or fields.
 
 61. explain type of set based selector ?
 
