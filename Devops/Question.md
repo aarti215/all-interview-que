@@ -397,7 +397,7 @@ The default namespace in Kubernetes is simply called "default." When you create 
 A Service in Kubernetes is an abstraction that defines a logical set of pods and a policy for accessing them. Services provide a stable endpoint (IP address and DNS name) for accessing a group of pods, even as those pods are created or destroyed. This allows applications to communicate with each other reliably. Services can also enable load balancing and can be configured to expose applications internally within the cluster or externally to the outside world. They come in several types, such as ClusterIP (default, for internal access), NodePort (for external access), and LoadBalancer (for cloud environments).
 
 77. type of service ?
-
+    - we can directly used the service IP, doesn't used to the perticular pod IP.
 There are four type of Services first one is
 - ClusterIP it Exposes the service internally within the cluster. It can't be accessed from outside.
 -  NodePort is Exposes the service on a static port on each node's IP, allowing external access.
