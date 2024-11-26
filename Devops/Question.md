@@ -398,8 +398,11 @@ A Service in Kubernetes is an abstraction that defines a logical set of pods and
 
 77. type of service ?
 
-There are four type of Services first one is ClusterIP it Exposes the service internally within the cluster. It can't be accessed from outside.
-then NodePort is Exposes the service on a static port on each node's IP, allowing external access. then after LoadBalancer to Creates an external load balancer (in cloud environments) to distribute traffic and provide a single IP for access and last is ExternalName for Maps the service to an external DNS name, allowing access to external resources using a Kubernetes service name.
+There are four type of Services first one is
+- ClusterIP it Exposes the service internally within the cluster. It can't be accessed from outside.
+-  NodePort is Exposes the service on a static port on each node's IP, allowing external access.
+-  LoadBalancer to Creates an external load balancer (in cloud environments) to distribute traffic and provide a single IP for access.
+-   ExternalName for Maps the service to an external DNS name, allowing access to external resources using a Kubernetes service name.
 
 78. what is daemonset ?
 
